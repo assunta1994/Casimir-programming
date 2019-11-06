@@ -8,6 +8,7 @@ y=circumference_circle(x)
 print (y)
 
 def area_circle(r):
+"""circle area"""
     a = 3.14* (r**2)
     return a
 z=int(input("r: "))
